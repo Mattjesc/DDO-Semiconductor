@@ -1,5 +1,13 @@
 # Data-Driven Optimization of Semiconductor Processes and Forecasting
 
+![ChipPerformance](https://github.com/user-attachments/assets/a5630c4f-df22-4c74-ab9c-af50e12b0b76)
+
+![FeatureSelection](https://github.com/user-attachments/assets/ecae7c7d-e49a-4a2b-aae7-42f9d4a2a10f)
+
+![WaferFaultRates](https://github.com/user-attachments/assets/224e7935-4888-4de5-b444-5cac5e2122c8)
+
+![SemiconductorShortage](https://github.com/user-attachments/assets/0d2a8eec-2e0d-42e6-a54d-8071f3c5dc41)
+
 ## Project Overview
 
 This project focuses on enhancing semiconductor manufacturing efficiency by applying data mining techniques across four distinct datasets. Each dataset corresponds to a unique aspect of semiconductor manufacturing and analysis, including performance benchmarking, manufacturing analysis, wafer fault detection, and economic forecasting related to semiconductor shortages.
@@ -202,9 +210,9 @@ uri-template==1.3.0
 urllib3==2.2.2
 wcwidth==0.2.13
 webcolors==24.6.0
-webencodings==0.5
+webencodings
 
-.1
+==0.5.1
 websocket-client==1.8.0
 Werkzeug==3.0.3
 wheel==0.43.0
@@ -235,3 +243,23 @@ The project successfully developed predictive models and insights that can impro
 ## Future Work
 
 Further exploration could involve refining the models by incorporating more external factors, addressing class imbalance more effectively, and extending the economic forecasting models to include additional economic indicators.
+
+## Dataset References
+
+The following datasets were used in this project, and their respective authors are credited below:
+
+1. **ChipPerformance.csv**:
+   - Original Dataset: [CPU and GPU Product Data](https://www.kaggle.com/datasets/michaelbryantds/cpu-and-gpu-product-data)
+   - Renamed in this project as `ChipPerformance.csv`.
+
+2. **FeatureSelection.csv**:
+   - Original Dataset: [UCI Semcom](https://www.kaggle.com/datasets/paresh2047/uci-semcom)
+   - Renamed in this project as `FeatureSelection.csv`.
+
+3. **WaferFaultRates.csv**:
+   - Original Dataset: [Wafer Dataset](https://www.kaggle.com/datasets/bhushanbhawarkar/wafer-dataset)
+   - Renamed in this project as `WaferFaultRates.csv`.
+
+4. **SemiconductorShortage.csv**:
+   - Original Dataset: [Semiconductor Shortages (1985-2021)](https://www.kaggle.com/datasets/ramjasmaurya/semiconductor-shortages19852021)
+   - Renamed in this project as `SemiconductorShortage.csv`.
