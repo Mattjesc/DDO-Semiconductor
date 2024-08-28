@@ -210,9 +210,7 @@ uri-template==1.3.0
 urllib3==2.2.2
 wcwidth==0.2.13
 webcolors==24.6.0
-webencodings
-
-==0.5.1
+webencodings==0.5.1
 websocket-client==1.8.0
 Werkzeug==3.0.3
 wheel==0.43.0
